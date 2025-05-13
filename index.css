@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    background-color: #000;
+    background-image: url(vxc.jpg);
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(9, 183, 226, 0.8);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.logo {
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a:hover, .logo:hover {
+    color: rgb(115, 210, 241);
+}
+
+.home{
+    background-image: url(vxc.jpg);
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    animation: fadeIn 3s ease-in-out;
+    background-image: url(2.jpg);
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.button {
+
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #f0a500;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.hero-content h1 {
+
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 10s;
+}
+
+@keyframes typing {
+    from {width: 0;}
+    to {width: 100%;}
+}
+
+header h1, p {
+    
+    color: rgb(250, 250, 250);
+}
+.button {
+
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #167aec;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: transform 0.3s ease-in-out;
+    background-image: url(aaas.jpg);
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.hero-content h1 {
+
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 10s;
+}
+
+@keyframes typing {
+    from {width: 0;}
+    to {width: 100%;}
+}
+
+.about{
+     padding: 55px 0px;
+     height: 50vh;
+     background-color: #000;
+     background-image: url(czxc.jpg);
+    
+}
+.about picture{
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+.about picture img{
+    height: 50%;
+}
+
+
+section {
+    padding: 55px 55px;
+    text-align: center;
+}
+
+.animated-image {
+    transition: transform 0.5s ease-in-out;
+}
+
+.animated-image:hover{
+    transform: scale(1.1);
+}
+
+.service{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(aaax.jpg)
+}
+
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    display: table;
+    height: 250px;
+    width: 335px;
+    padding: 20px 35px;
+    background: blue;
+    border-radius: 20px;
+    margin: 15px;
+    text-align: center;
+    background-image: url(;.jpg);
+    color: lightblue;
+
+}
+
+#contact {
+    background: #74c2f7;
+    color: #74c2f7;
+    padding: 90px;
+    background-image: url(Contact_Us_Banner.jpg);
+}
